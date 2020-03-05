@@ -4,7 +4,7 @@ int main(){
 	int recebeu;
 	atual_n_carteira = 11;
 	recebeu = 4;
-	if(atual_n_carteira > recebeu){
+	if(atual_n_carteira < recebeu){
 		printf("perdeu a carteira");
 	}	else{
 			printf("Não perdeu a carteira");
