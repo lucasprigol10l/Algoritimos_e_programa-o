@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+	int atual_n_carteira;
+	int recebeu;
+	atual_n_carteira = 11;
+	recebeu = 4;
+	if(atual_n_carteira > recebeu){
+		printf("perdeu a carteira");
+	}	else{
+			printf("Não perdeu a carteira");
+	}
+}
